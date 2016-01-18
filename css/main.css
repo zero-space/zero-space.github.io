@@ -85,7 +85,7 @@ input[type=button],input[type=reset],input[type=submit],input[type=radio],input[
 .box-prev .link-mark .active-box li:nth-of-type(5){ height: 100px; width: 100px;transform: rotateY(90deg) translateX(50px) translateZ(-50px);left: 0}
 .box-prev .link-mark .active-box li:nth-of-type(6){left: 0}
 /**/
-.theme-body{background: url("../img/pic5.jpg") no-repeat center 0}
+.theme-body{background: url("../img/pic5.jpg") no-repeat center 0 #000}
 
 @-webkit-keyframes logo {
     0%{ -webkit-transform: translateY(-200px);opacity: 0}
