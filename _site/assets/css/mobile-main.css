@@ -1,0 +1,157 @@
+.nav-wrap{height: 80px;width: 100%; overflow: hidden; background:#4183c4; position: fixed; top: 40px; box-shadow: 0 0 5px rgba(0,0,0,0.2); z-index: 999; transition: 0.5s all}
+.nav-wrap.goTop-nav{background: #fff}
+.nav-wrap.goTop-nav .logo-wrap .icon{ color:#2e2e2e;}
+.nav-wrap.goTop-nav .logo-wrap .my-name{color:#2e2e2e}
+.nav-wrap.goTop-nav .nav li a{color:#2e2e2e;text-shadow: 0 0 0 rgba(0,0,0,0)}
+.nav-wrap.goTop-nav .nav li:hover a{color: #4183c4}
+.nav-wrap.goTop-nav .logo-wrap:hover{ text-shadow: none}
+.nav-wrap.goTop-nav.top{top:0}
+.index-inner{position: relative;}
+.ajax-tab{position:absolute;top: 0;left: 0; width: 100%; background: #fff}
+
+.banner{height:430px; background: #4183c4;position: relative ; transition: 0.5s all}
+.banner .wrap{transition: 0.3s all}
+.wrap{width: 1170px;margin: 0 auto; overflow: hidden;padding: 0 15px}
+.nav-wrap .logo-wrap{float: left; height: 80px; line-height: 80px; overflow: hidden; display: block;transition: 0.3s all; text-shadow:0 0 6px rgba(0,0,0,0)}
+.nav-wrap .logo-wrap .my-name{font-size: 38px; color: #fff; display: inline-block;padding-left: 10px; transition: color 0.7s}
+.nav-wrap .logo-wrap .icon{color: #fff; font-size: 44px; color: #fff; text-shadow:  0 0 5px rgba(0,0,0,0.2); display: inline-block;text-shadow:0 0 rgba(0,0,0,0); transition: color 0.3s;/* animation: gitIcon 8.1s ease-out infinite forwards*/}
+.banner.small{height: 335px;}
+.banner.small .wrap{padding-top: 140px;text-shadow: 1px 1px 3px rgba(0,0,0,0.6);transition:0.3s all}
+
+.nav-wrap .nav{float: right;}
+.nav-wrap .nav li{ height: 80px;line-height: 80px; float: left;  margin: 0 auto; color: #9acfea; position: relative;}
+.nav-wrap .nav li a{ height: 80px;line-height: 80px; display: inline-block; padding:0 30px; color: #9acfea; display: block; font-size: 20px;transition: 0.3s all; text-shadow: 0 0 3px rgba(0,0,0,0.5)}
+.nav-wrap .nav li:before{  content: "";  position: absolute;  z-index: -1;  left: 50%;  right: 50%;  bottom: 15px;  background: #2098d1; height: 4px;  -webkit-transition-property: left,right;  transition-property: left,right; -webkit-transition-duration: .3s;  transition-duration: .3s;  -webkit-transition-timing-function: ease-out;  transition-timing-function: ease-out  }
+.nav-wrap .nav li:hover a{color: #fff; transform:scale(1.1)}
+.nav-wrap .logo-wrap:hover{ transform:scale(1.08); text-shadow:0 0 6px rgba(0,0,0,0.6)}
+.nav-wrap .nav li:hover:before{left:0;right: 0}
+/****baner****/
+.banner .wrap{position: relative;padding-top: 198px}
+.banner .about-me{float: left; width: 400px;border: 3px #fff dotted;border-style: dashed;border-color: rgba(255,255,255,0); padding-bottom: 15px; text-shadow: 1px 2px 2px rgba(0,0,0,0.3);}
+.about-me .me{width: 160px; float: left}
+.about-me .me p{height: 30px; line-height: 30px; font-size: 18px; color: #fff;text-align: center; font-family: "Microsoft Yahei"}
+.about-me .header{ width: 110px; height: 110px; padding: 5px; background: #fff; border-radius: 120px; margin: 20px auto 10px;overflow: hidden; border: 3px #fff solid; }
+.about-me .header img{ width: 130px; height: 130px;  overflow: hidden;  position: relative;  top: -10px;  left: -10px;}
+.about-me .des{float: left;margin: 26px 0 0 10px;}
+.about-me .des p{height: 34px; line-height: 34px; font-size: 18px; color: #fff;text-align: left; font-family: "Microsoft Yahei"}
+.about-me .des p.first{height: 51px; font-size: 28px;  line-height: 34px;}
+.about-me .des p i { font-size: 20px;padding-right: 5px;}
+/*   content    */
+.main{ overflow: hidden; padding-top: 20px;}
+.inner-left{float: left ; width: 66.66%;;box-sizing: border-box; padding-right: 20px;}
+.main-list .row{ margin: 31px 0 8px;padding-left:18px;border-bottom: 1px #ebebeb solid; border-left: 2px rgba(0,0,0,0) solid;   transition: 0.5s all; opacity: 0}
+.main-list .row:hover{border-left: 2px #337ab7 solid; }
+.main-list .row h3{line-height: 51px; font-size:30px; color: #337ab7; font-weight: normal; font-family:Arial,"Microsoft Yahei" }
+.main-list .row h3 a{color: #337ab7;transition: 0.3s all; display: inline-block;}
+.main-list .row .text-des{line-height: 28px; font-size: 18px; color: #666}
+.main-list .row .date i{font-size: 16px;}
+.main-list .row .date { line-height: 37px;  font-size: 18px;  color: #C1C1C1;  font-family: arial;}
+.repositories-right{ float: right; width: 33.33%; padding-top: 30px;box-sizing: border-box; }
+.repositories-right .repositories-tt{ font-size: 24px; text-align: center}
+.repositories-right .list{ padding-top: 20px; width: 360px; margin: 0 auto; padding-bottom: 10px; }
+.repositories-right .list .column{min-height: 180px; padding-bottom:7px;  border: 1px solid rgba(0,0,0,0.075);  border-bottom-color: rgba(0,0,0,0.125);  border-radius: 4px;  box-shadow: 0 1px 2px rgba(0,0,0,0.05),0 5px 10px rgba(0,0,0,0.05);  -webkit-transition: border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;  transition: border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out; transition: 0.3s all;margin-bottom: 30px;transform: scale(0.95);opacity: 0;display: none}
+.repositories-right .list .column:hover{    border-color:rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.15);  box-shadow:0 2px 4px rgba(0,0,0,0.05),0 10px 18px rgba(0,0,0,0.1);  opacity: 1;}
+.repositories-right .column .tt{height: 130px; background: #ccc;margin: 4px;border-radius: 4px;line-height: 130px; text-align: center; font-size: 30px; overflow: hidden;transition: 0.5s all; position: relative}
+.repositories-right .column .tt .markImg{position: absolute; top:0; left:0; width: 100%; height: 100%; z-index: 1; opacity: 0.3; transition: 0.3s all;}
+.repositories-right .column .tt a{display: block; background-color:rgba(0,0,0,0.3); transition: 0.3s ease-out all; color: #ebebeb; position: relative; z-index: 3}
+.repositories-right .column .tt:hover a{ opacity: 0; border-radius: 300px; transform: scale(0.5)}
+.repositories-right .column .tt:hover{opacity: 0.8}
+.repositories-right .column .tt:hover .markImg{opacity:1}
+.repositories-right .column:hover{transform: scale(1.02)}
+.repositories-right .column .des{ line-height: 30px; text-align: center; font-size: 16px; font-family: "Microsoft Yahei"; color: #666}
+.repositories-right .column .url{ text-align: center; color:#4183c4; height: 30px;line-height: 30px;overflow: hidden}
+/* 文章内页 */
+.article-main{line-height: 30px;padding-top: 50px;font-size: 18px;}
+
+.article-hd .article-tt{line-height: 70px; font-size: 38px; color: #fff; font-family: "Microsoft Yahei";padding-top: 40px}
+.article-hd .article-date{ font-size: 24px;color: #fff; line-height: 30px}
+.article-hd .article-date i{ font-size: 28px}
+.article-hd .article-date span{padding-left:5px;font-size:26px }
+.page-article{display: none; background: #fff}
+.hideEl{ opacity: 0}
+
+/*Blog*/
+.time-line{ position: relative;min-height: 1000px; padding-top: 30px; clear: both}
+.time-line .timeYear{width: 80px; height: 80px; background: #337ab7; border-radius: 40px;position: absolute;top:30px; left:50%; margin-left: -40px;line-height: 80px; color: #fff;  font-size: 20px; text-align: center;z-index: 5;box-shadow: 2px 2px 7px rgba(0,0,0,0.6);transition:0.8s all;transform: scale(0.1);opacity: 0}
+.time-line .line{position: absolute;top:30px; left:50%; margin-left: -3px; width: 6px; height: 100%; background: #337ab7; border-radius: 8px;z-index: 3;box-shadow:2px 2px 4px rgba(0,0,0,0.2);opacity: 0}
+.article-list{ width: 1000px; margin: 100px auto 0; overflow: hidden; padding:5px 20px;}
+.article-list li{ width:50%;  position: relative; z-index: 20; transition: 0.3s all}
+.article-list li:hover .inner{transform: scale(1.03)}
+.article-list li:hover .inner{transform: scale(1.03)}
+.article-list li .inner{ width: 450px; min-height: 100px; box-shadow: 1px 1px 10px rgba(0,0,0,0.2);transition: 0.3s all}
+.article-list li .dot{position: absolute; right: -7px;top: 10px; width: 15px; height: 15px; border-radius: 15px; background: #5dabef; z-index: 20;box-shadow: 0px 0px 9px rgba(0,0,0,0.2);}
+.article-list .hd-tt{padding: 10px; background:#337ab7;line-height: 30px;font-size: 18px; color: #fff; cursor: pointer; transition: 0.6s all;text-indent: 10px;}
+.article-list .hd-tt:hover{background: #41b1c4;}
+.article-list li .text{padding: 10px 10px 0; line-height:25px; font-size: 18px;color: #666; cursor: pointer;transition: 0.3s all;}
+.article-list li .text:hover{color: #337ab7;}
+.article-list li .date{padding:0 10px; line-height: 30px; text-align: right;}
+.article-list li span{font-size: 16px;color: #999;padding: 0 20px 7px 0;}
+.article-list li i { color: #999;font-size: 23px;  position: relative;  left: -5px;  top: 2px;}
+.article-list li:after{  content: "";  width: 0px;  height: 0px;  position: absolute;  top: 10px;  right: 30px;  border: 10px solid transparent;  border-left-color: #337ab7;transition: 0.3s all; }
+.article-list li:before{  top: 39px; border: 11px solid transparent;  border-left-color: #000000; transition: 0.3s all }
+.article-list li.row:hover .inner{    box-shadow: 1px 1px 10px rgba(0,0,0,0.8); }
+.article-list .row.lt{float: left;margin-bottom:50px}
+.article-list .row.rt{float: right;margin-top: 50px}
+.article-list .row.rt .inner{float: right;}
+.article-list .row.rt:after{  content: "";  width: 0px;  height: 0px;  position: absolute;  top: 10px;  left: 30px;  border: 10px solid transparent;  border-right-color: #337ab7;  }
+.article-list .row.rt:before{  top: 39px;  border: 11px solid transparent;  border-right-color: #000000;  }
+.article-list .row.rt .dot{position: absolute; left: -7px;top: 10px; width: 15px; height: 15px; border-radius: 15px; background: #5dabef; z-index: 20}
+.article-list li{opacity: 0}
+/*myOpen-list*/
+.myOpen-list{ overflow: hidden}
+.myOpen-list{ padding-top: 20px;margin: 0 auto; padding-bottom: 10px; }
+.myOpen-list .column{min-height: 180px; padding-bottom:7px;  border: 1px solid rgba(0,0,0,0.075);  border-bottom-color: rgba(0,0,0,0.125);  border-radius: 4px;  box-shadow: 0 1px 2px rgba(0,0,0,0.05),0 5px 10px rgba(0,0,0,0.05);  -webkit-transition: border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;  transition: border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out; transition: 0.3s all;margin-bottom: 30px;transform: scale(0.95); width: 320px; float: left; margin:30px;opacity: 0;}
+.myOpen-list .column:hover{    border-color:rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.15);  box-shadow:0 2px 4px rgba(0,0,0,0.05),0 10px 18px rgba(0,0,0,0.1);  opacity: 1;}
+.myOpen-list .column .tt{height: 130px; background: #ccc;margin: 4px;border-radius: 4px;line-height: 130px; text-align: center; font-size: 26px; overflow: hidden;transition: 0.5s all; position: relative;font-family: Arial,"Microsoft Yahei"}
+.myOpen-list .column .tt .markImg{position: absolute; top:0; left:0; width: 100%; height: 100%; z-index: 1; opacity: 0.3; transition: 0.3s all;}
+.myOpen-list .column .tt a{display: block; background-color:rgba(0,0,0,0.3); transition: 0.3s ease-out all; color: #ebebeb; position: relative; z-index: 3;}
+.myOpen-list .column .tt:hover a{ opacity: 0; border-radius: 300px; transform: scale(0.5)}
+.myOpen-list .column .tt:hover{opacity: 0.8}
+.myOpen-list .column .tt:hover .markImg{opacity:1}
+.myOpen-list .column:hover{transform: scale(1.02)}
+.myOpen-list .column .des{ line-height: 30px; text-align: center; font-size: 16px; font-family: "Microsoft Yahei"; color: #666; height: 30px ;overflow: hidden}
+.myOpen-list .column .url{ text-align: center; color:#4183c4; height: 30px;line-height: 30px;overflow: hidden}
+/*  动画效果  */
+@-webkit-keyframes showAnimate {
+    0%{opacity: 0; transform:translateY(-100px)  scale(0);}
+    70%{opacity: 1; width: 100%;}
+    100%{background: #4183c4;transform:translateY(0)  scale(1) ;}
+}
+@-webkit-keyframes showNav {
+    0%{opacity: 0; transform:translateX(-200px) scale(0);}
+    70%{}
+    100%{opacity: 1;transform:translateY(0px) scale(1);}
+}
+
+@-webkit-keyframes showMe {
+    0%{opacity: 0; transform: scale(0);}
+    70%{}
+    100%{transform: scale(1);opacity: 1;}
+}
+
+@-webkit-keyframes showEl {
+    0%{opacity: 0; transform:translateY(100px) scale(0);}
+    50%{ transform: translateY(0px) scale(1.2)}
+    100%{transform: scale(1) ; opacity: 1;}
+}
+
+@-webkit-keyframes listEl {
+    0%{transform:translateY(200px);opacity: 0; }
+    50%{transform:translateY(-15px);}
+    100%{transform:translateY(0px);opacity: 1;}
+}
+
+@-webkit-keyframes listEl2 {
+    0%{transform:translateY(200px);opacity: 0; }
+    50%{transform:translateY(-15px);}
+    100%{transform:translateY(0px) scale(0.95);opacity: 1;}
+}
+
+@-webkit-keyframes mainRtEl {
+    0%{transform:translateY(200px);opacity: 0; }
+    5%{transform:scale(0); }
+    50%{transform:translateY(-15px);}
+    95%{transform:scale(1); }
+    100%{transform:scale(0.95) translateY(0px);opacity: 1;}
+}
+

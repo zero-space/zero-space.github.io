@@ -1,0 +1,23 @@
+.animation(@attr){
+  -webkit-animation:@attr;
+  -moz-animation:@attr;
+  -ms-animation:@attr;
+  -o-animation:@attr;
+  animation:@attr;
+}
+
+.transformOrigin(@attr){
+  -webkit-transform-origin:@attr;
+  -moz-transform-origin:@attr;
+  -o-transform-origin:@attr;
+  -ms-transform-origin:@attr;
+  transform-origin:@attr;
+}
+
+.keyframes (@name, @frames) {
+  @-webkit-keyframes @name { @frames(); }
+  @-moz-keyframes @name { @frames(); }
+  @-ms-keyframes @name { @frames();}
+  @-o-keyframes @name { @frames(); }
+  @keyframes @name { @frames(); }
+}

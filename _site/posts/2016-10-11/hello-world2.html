@@ -1,0 +1,53 @@
+<div class="banner article-hd" style="background-color: #41b1c4">
+    <div class="wrap">
+        <div class="article-tt">hello world</div>
+        <div class="article-date"><i class="icon iconfont">&#xe60e;</i><span>2016-09-12</span></div>
+    </div>
+</div>
+<div class="article-wrap wrap">
+    <div class="article-main"><h1>hello world</h1>
+<h2>key world</h2>
+</div>
+</div>
+<link rel="stylesheet" href="/assets/css/atelier-lakeside-light.css">
+<link rel="stylesheet" href="/assets/css/article_reset.css">
+<script src="/assets/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+    $(function(){
+        $('pre code').each(function(i, block) {
+            hljs.highlightBlock(block);
+        });
+        isIndex=false;
+        $('.article-main').css({
+            display:'none',
+            opacity:0
+        });
+        setTimeout(function(){
+            $('.article-main').css('display','block');
+            $('.article-main').css({animation:'1s listEl forwards'});
+        },800);
+    });
+
+</script>
+<!-- 多说评论框 start -->
+<div class="ds-thread" data-thread-key=20160912helloworld2.md data-title=hello world data-url="请替换成文章的网址"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    var DUOSHUO=null;
+    var duoshuoQuery = {short_name:"zues"};
+    if(DUOSHUO != null){
+        delete DUOSHUO;
+    }
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+        || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+<!-- 多说公共JS代码 end -->
+<link rel="stylesheet" href="/assets/css/duoshuo.css">
